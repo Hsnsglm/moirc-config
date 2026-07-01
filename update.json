@@ -1,5 +1,21 @@
 {
-  "min_build_code": 38,
-  "latest_version": "2.1.10",
-  "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app"
+  "min_build_code": 39,
+  "latest_version": "2.1.11",
+  "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
+  "release_notes": {
+    "tr-TR": [
+      "Aynı sunucuda farklı nick profilleri için kayıt ve şifre karışması giderildi.",
+      "NickServ ve OPER bilgileri artık her sunucu/nick profiline özel saklanır.",
+      "Kaydırarak kapatıp tekrar açınca son kullanılan nick doğru şekilde korunur.",
+      "Çoklu sunucu kullanımında bildirimlerin yanlış susturulmasına neden olan durum düzeltildi.",
+      "Android güncelleme ve yedekleme ayarları iyileştirildi."
+    ],
+    "en-US": [
+      "Fixed saved profile and password mix-ups when using multiple nicknames on the same server.",
+      "NickServ and OPER credentials are now stored per server/nick profile.",
+      "The latest active nickname is now restored correctly after swipe-away and reopen.",
+      "Fixed incorrect notification suppression in multi-server sessions.",
+      "Improved Android update and backup configuration."
+    ]
+  }
 }
