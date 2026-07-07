@@ -1,21 +1,29 @@
 {
-  "min_build_code": 39,
-  "latest_version": "2.1.11",
+  "min_build_code": 40,
+  "latest_version": "2.1.12",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Aynı sunucuda farklı nick profilleri için kayıt ve şifre karışması giderildi.",
-      "NickServ ve OPER bilgileri artık her sunucu/nick profiline özel saklanır.",
-      "Kaydırarak kapatıp tekrar açınca son kullanılan nick doğru şekilde korunur.",
-      "Çoklu sunucu kullanımında bildirimlerin yanlış susturulmasına neden olan durum düzeltildi.",
-      "Android güncelleme ve yedekleme ayarları iyileştirildi."
+      "Android geri tuşu davranışı iyileştirildi.",
+      "Çıkış onay penceresi açıkken veya kapandıktan sonra hızlı geri tuşuna basıldığında uygulamanın istemeden ana ekrana düşmesine neden olan sorun giderildi.",
+      "Klavye, uygulama içi panel veya diyalog açıkken geri tuşu artık daha güvenli ve kontrollü çalışır.",
+      "Mevcut IRC oturumlarının ve sunucu geçmişinin daha güvenli şekilde korunması için oturum geri yükleme sistemi iyileştirildi.",
+      "TopBar ikonları daha modern ve profesyonel bir görsel stile güncellendi.",
+      "GevezeStory gönderi, video, profil, yorum ve beğenenler deneyimi iyileştirildi.",
+      "Profil görüntüleme için yedek bağlantı desteği eklendi.",
+      "Mesaj seçme, kopyalama ve kaydırma davranışları iyileştirildi.",
+      "Arayüz düzenlemeleri ve hata düzeltmeleri yapıldı.",
+      "Genel kararlılık ve kullanıcı deneyimi iyileştirmeleri yapıldı."
     ],
     "en-US": [
-      "Fixed saved profile and password mix-ups when using multiple nicknames on the same server.",
-      "NickServ and OPER credentials are now stored per server/nick profile.",
-      "The latest active nickname is now restored correctly after swipe-away and reopen.",
-      "Fixed incorrect notification suppression in multi-server sessions.",
-      "Improved Android update and backup configuration."
+      "Android back button behavior has been improved.",
+      "Session restore system has been improved to more securely protect existing IRC sessions and server history.",
+      "TopBar icons have been updated to a more modern and professional visual style.",
+      "GevezeStory post, video, profile, comment, and like experience has been improved.",
+      "Backup link support added for profile viewing.",
+      "Message selection, copying, and scrolling behaviors have been improved.", 
+      "Interface adjustments and bug fixes have been made.", 
+      "General stability and user experience improvements have been made."
     ]
   }
 }
