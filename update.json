@@ -14,6 +14,9 @@
       "Özel görüşme pencerelerinde üst bilgilendirme alanı eklendi.",
       "Özel görüşme üst bilgilendirme alanına, ilgili özel pencereyi onaysız kapatan X butonu eklendi.",
       "Sohbet ekranındaki hızlı işlem, özel pencere bilgilendirme ve kullanıcı listesi davranışları daha tutarlı hale getirildi.",
+      "Timer komutu kullanımı güçlendirildi",
+      "/timer 0 0 /komut kullanımı uygulama kasma ve kilitlenme engeli koyularak aktif hale getirildi.",
+      "Sonsuz döngüdeki timer'lar artık siz kapatana kadar sürekli aktif devrede kalacak.",
       "Arayüz düzenlemeleri ve kullanıcı deneyimi iyileştirmeleri yapıldı."
     ],
     "en-US": [
