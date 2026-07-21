@@ -1,36 +1,33 @@
 {
-  "min_build_code": 42,
-  "latest_version": "2.1.14",
+  "min_build_code": 43,
+  "latest_version": "2.1.15",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Ayarlar ekranındaki sekme ikonları TopBar stiline uygun, daha modern ve profesyonel gradyan görünüme güncellendi.",
-      "Sohbet ekranında mesaj gönderen kullanıcı adına dokunulduğunda küçük ve hızlı kullanıcı işlem paneli açılması sağlandı.",
-      "Kullanıcı işlem paneline Özele Git, Banla, Kick, Sustur, Voice ve Whois işlemleri eklendi.",
-      "Kick ve Kickban işlemlerinde gönderilen uzaklaştırma mesajı Mobil Script Pro imzası ile güncellendi.",
-      "Kanal kullanıcı listesinde seçilen kullanıcıya otomatik kaydırma davranışı geliştirildi.",
-      "1000+ kullanıcılı kalabalık kanallarda seçili kullanıcıya daha doğru ve hızlı kaydırma yapılması sağlandı.",
-      "Geveze.org sunucusunda GevezeStory kullanıcısından mesaj geldiğinde TopBar üzerindeki GevezeStory butonunda okunmamış bildirim rozeti gösterilmesi sağlandı.",
-      "Özel görüşme pencerelerinde üst bilgilendirme alanı eklendi.",
-      "Özel görüşme üst bilgilendirme alanına, ilgili özel pencereyi onaysız kapatan X butonu eklendi.",
-      "Sohbet ekranındaki hızlı işlem, özel pencere bilgilendirme ve kullanıcı listesi davranışları daha tutarlı hale getirildi.",
-      "Timer komutu kullanımı güçlendirildi",
-      "/timer 0 0 /komut kullanımı uygulama kasma ve kilitlenme engeli koyularak aktif hale getirildi.",
-      "Sonsuz döngüdeki timer'lar artık siz kapatana kadar sürekli aktif devrede kalacak.",
-      "Arayüz düzenlemeleri ve kullanıcı deneyimi iyileştirmeleri yapıldı."
+      "Kanal mesajlarında kullanıcı nickine dokununca açılan hızlı işlem penceresi artık seçili uygulama diline göre çevrilir.",
+      "Bu güncellemeye özel olarak, önceki sürümlerde deneme süresi bittiği için pasif kalan genel bildirim ayarı bir kez otomatik aktif yapılacak şekilde düzenlendi.",
+      "Karantina kaldırıldı bildirimi alındıktan 5 saniye sonra Geveze.org ve TRSohbet.com sunucularında belirlenen kanallara tek JOIN komutuyla otomatik giriş desteği eklendi.",
+      "Geveze.org için #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC ve #Bizimmekan kanallarına otomatik giriş yapılacak şekilde düzenleme yapıldı.",
+      "TRSohbet.com için #yarisma, #metal, #kelime, #Oxm, #idealsohbet, #Mynet_sohbet, #diyalog, #hossohbet ve #Trsohbet kanallarına otomatik giriş yapılacak şekilde düzenleme yapıldı.",
+      "Karantina bildirimi kısa sürede birden fazla kez gelirse aynı otomatik JOIN komutunun tekrar tekrar gönderilmesini önleyen koruma eklendi.",
+      "Radyo oynatma sırasında oluşan takılma, yavaşlama ve uzun bekleme sorunları için zaman aşımı koruması eklendi.",
+      "Radyo oynatılamadığında teknik hata yerine kullanıcıya daha anlaşılır bir uyarı gösterilecek şekilde hata mesajları iyileştirildi.",
+      "mIRC renk kodlarıyla yapılan şekillerin mobilde bozuk görünmesine neden olan mesaj satır aralığı azaltıldı ve IRC art görünümü iyileştirildi.",
+      "Google Console üzerinde görülen ForegroundServiceDidNotStopInTimeException / ANR hatalarına karşı arka plan servis tipi düzenlendi.",
+      "@Admin ve @ ile başlayan sistem pencerelerinde ident@host bilgisinin başlıkta gösterilmesi engellendi."
     ],
     "en-US": [
-      "Settings screen tab icons have been updated with a more modern TopBar-style gradient design.",
-      "A compact quick user action panel now opens when tapping a sender nickname in the chat area.",
-      "Quick user actions now include Private Chat, Ban, Kick, Mute, Voice, and Whois.",
-      "Kick and Kickban messages have been updated with the Mobil Script Pro signature.",
-      "Automatic scrolling to the selected nickname in the channel user list has been improved.",
-      "Selected nickname scrolling is now more accurate and reliable in large channels with 1000+ users.",
-      "On Geveze.org, incoming messages from GevezeStory now show an unread badge on the TopBar GevezeStory button.",
-      "A top information banner has been added for private conversation windows.",
-      "The private conversation top banner includes an X button to close the private window without confirmation.",
-      "Quick actions, private window banner behavior, and user list behavior are now more consistent across the chat UI.",
-      "Interface adjustments and user experience improvements have been made."
+      "The quick action popup opened by tapping a nick in channel messages now follows the selected app language.",
+      "For this update only, the general notification setting that may have been disabled after trial expiration in older versions will be automatically enabled once.",
+      "Added automatic channel join support 5 seconds after the quarantine-lifted notification for the configured Geveze.org and TRSohbet.com channels using a single JOIN command.",
+      "Configured Geveze.org to automatically join #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC, and #Bizimmekan after quarantine is lifted.",
+      "Configured TRSohbet.com to automatically join #yarisma, #metal, #kelime, #Oxm, #idealsohbet, #Mynet_sohbet, #diyalog, #hossohbet, and #Trsohbet after quarantine is lifted.",
+      "Added duplicate protection so repeated quarantine notifications do not send the same automatic JOIN command repeatedly.",
+      "Added timeout protection for radio playback to prevent freezing, slowing down, or long waits.",
+      "Improved radio playback error messages with clearer user-friendly explanations.",
+      "Reduced message line spacing and improved IRC/mIRC color art rendering on mobile.",
+      "Adjusted Android foreground service configuration to help prevent ForegroundServiceDidNotStopInTimeException / ANR reports.",
+      "Prevented ident@host information from being shown in @Admin and other @ system windows."
     ]
   }
 }
