@@ -1,33 +1,33 @@
 {
-  "min_build_code": 43,
-  "latest_version": "2.1.15",
+  "min_build_code": 44,
+  "latest_version": "2.1.16",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Kanal mesajlarında kullanıcı nickine dokununca açılan hızlı işlem penceresi artık seçili uygulama diline göre çevrilir.",
-      "Bu güncellemeye özel olarak, önceki sürümlerde deneme süresi bittiği için pasif kalan genel bildirim ayarı bir kez otomatik aktif yapılacak şekilde düzenlendi.",
-      "Karantina kaldırıldı bildirimi alındıktan 5 saniye sonra Geveze.org ve TRSohbet.com sunucularında belirlenen kanallara tek JOIN komutuyla otomatik giriş desteği eklendi.",
-      "Geveze.org için #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC ve #Bizimmekan kanallarına otomatik giriş yapılacak şekilde düzenleme yapıldı.",
-      "TRSohbet.com için #yarisma, #metal, #kelime, #Oxm, #idealsohbet, #Mynet_sohbet, #diyalog, #hossohbet ve #Trsohbet kanallarına otomatik giriş yapılacak şekilde düzenleme yapıldı.",
-      "Karantina bildirimi kısa sürede birden fazla kez gelirse aynı otomatik JOIN komutunun tekrar tekrar gönderilmesini önleyen koruma eklendi.",
-      "Radyo oynatma sırasında oluşan takılma, yavaşlama ve uzun bekleme sorunları için zaman aşımı koruması eklendi.",
-      "Radyo oynatılamadığında teknik hata yerine kullanıcıya daha anlaşılır bir uyarı gösterilecek şekilde hata mesajları iyileştirildi.",
-      "mIRC renk kodlarıyla yapılan şekillerin mobilde bozuk görünmesine neden olan mesaj satır aralığı azaltıldı ve IRC art görünümü iyileştirildi.",
-      "Google Console üzerinde görülen ForegroundServiceDidNotStopInTimeException / ANR hatalarına karşı arka plan servis tipi düzenlendi.",
-      "@Admin ve @ ile başlayan sistem pencerelerinde ident@host bilgisinin başlıkta gösterilmesi engellendi."
+      "CTCP VERSION gizlilik ayarı iyileştirildi. Ayarlardaki cihaz modeli göster/gizle seçeneği artık uygulamayı kapatıp açmadan veya yeniden bağlanmadan canlı bağlantı üzerinde anında geçerli olur.",
+      "CTCP VERSION yanıtında cihaz marka/model bilgisinin gösterilip gösterilmeyeceği bağlantı sırasında değiştirildiğinde mevcut IRC client yanıt metni otomatik olarak güncellenir.",
+      "Bağlantı kopup otomatik reconnect tamamlandıktan sonra Android bildirim panelinde eski \"Bağlantı kesildi\" bilgisinin kalmasına neden olan durum düzeltildi.",
+      "Reconnect sonrası sunucudan tekrar bağlantı onayı alındığında foreground servis bildirimi otomatik olarak bağlı durumuna güncellenir.",
+      "Arka planda reconnect sonrası Geveze.org ve TRSohbet.com için karantina/bekleme bildirimi algılandığında otomatik kanal giriş sistemi daha kararlı çalışacak şekilde iyileştirildi.",
+      "TRSohbet.com arka plan reconnect senaryosunda açık karantina kaldırıldı bildirimi gelmese bile #Karantina bekleme/aktarım mesajları algılanarak otomatik JOIN işlemi tetiklenir.",
+      "Geveze.org için #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC ve #Bizimmekan kanallarına otomatik giriş desteği korundu.",
+      "TRSohbet.com için #trsohbet, #hossohbet, #diyalog, #Mynet_sohbet, #idealsohbet, #yarisma ve #Oxm kanallarına otomatik giriş desteği güncellendi.",
+      "Kısa süreli kopma ve hızlı reconnect durumlarında otomatik JOIN komutunun gereksiz yere engellenmemesi için tekrar koruma süresi optimize edildi.",
+      "Desteklenen diller için eksik yerelleştirme metinleri tamamlandı ve ayarlar ekranındaki CTCP VERSION gizlilik metinleri çoklu dil desteğine eklendi.",
+      "Arka plan servisi ve alternatif servis yolu, canlı bağlantı ayar değişikliklerini daha güvenilir şekilde uygulayacak biçimde iyileştirildi."
     ],
     "en-US": [
-      "The quick action popup opened by tapping a nick in channel messages now follows the selected app language.",
-      "For this update only, the general notification setting that may have been disabled after trial expiration in older versions will be automatically enabled once.",
-      "Added automatic channel join support 5 seconds after the quarantine-lifted notification for the configured Geveze.org and TRSohbet.com channels using a single JOIN command.",
-      "Configured Geveze.org to automatically join #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC, and #Bizimmekan after quarantine is lifted.",
-      "Configured TRSohbet.com to automatically join #yarisma, #metal, #kelime, #Oxm, #idealsohbet, #Mynet_sohbet, #diyalog, #hossohbet, and #Trsohbet after quarantine is lifted.",
-      "Added duplicate protection so repeated quarantine notifications do not send the same automatic JOIN command repeatedly.",
-      "Added timeout protection for radio playback to prevent freezing, slowing down, or long waits.",
-      "Improved radio playback error messages with clearer user-friendly explanations.",
-      "Reduced message line spacing and improved IRC/mIRC color art rendering on mobile.",
-      "Adjusted Android foreground service configuration to help prevent ForegroundServiceDidNotStopInTimeException / ANR reports.",
-      "Prevented ident@host information from being shown in @Admin and other @ system windows."
+      "Improved the CTCP VERSION privacy setting. The show/hide device model option in Settings now takes effect immediately on the active connection without restarting the app or reconnecting.",
+      "When the device brand/model visibility setting for CTCP VERSION is changed while connected, the active IRC client response text is now updated automatically.",
+      "Fixed an issue where the Android notification panel could still show \"Disconnected\" after the app successfully reconnected.",
+      "After reconnecting and receiving the server welcome/registration confirmation again, the foreground service notification is now automatically updated back to the connected state.",
+      "Improved automatic channel join reliability for Geveze.org and TRSohbet.com after quarantine/waiting notifications during background reconnect scenarios.",
+      "For TRSohbet.com background reconnects, automatic JOIN can now be triggered from #Karantina waiting/transfer messages even when an explicit quarantine-lifted notice is not received.",
+      "Automatic channel join support for Geveze.org remains configured for #GevezeMobil, #GevezeSohbet, #GevezeChat, #GevezemIRC, and #Bizimmekan.",
+      "Updated TRSohbet.com automatic channel join support for #trsohbet, #hossohbet, #diyalog, #Mynet_sohbet, #idealsohbet, #yarisma, and #Oxm.",
+      "Optimized duplicate protection timing so automatic JOIN commands are not incorrectly blocked during quick disconnect/reconnect cycles.",
+      "Completed missing localization strings for supported languages and added multilingual CTCP VERSION privacy texts to the Settings screen.",
+      "Improved background service and legacy service handling so live connection setting changes are applied more reliably."
     ]
   }
 }
