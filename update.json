@@ -1,43 +1,21 @@
 {
-  "min_build_code": 46,
-  "latest_version": "2.1.18",
+  "min_build_code": 47,
+  "latest_version": "2.1.19",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Geveze.org ve TRSohbet.com kullanıcı listesinde profil avatar desteği eklendi.",
-      "Avatarı olmayan kullanıcılar için eski yetki ikonları korunmaya devam ediyor.",
-      "Kullanıcı işlemleri menüsünde profil avatarı gösterimi eklendi.",
-      "Geveze.org özel/süslü nick stilleri gerçek özel nick verisine göre görünür hale getirildi.",
-      "Nick listesi ve kullanıcı işlemleri ekranında özel nick renkleri, kalın yazı ve parıltı efektleri iyileştirildi.",
-      "Medya gönderiminde dosyalar şifrelenmiş olarak iletilir ve üçüncü taraf kişiler tarafından korunur; resim ve ses verileri alıcıya ulaştıktan 60s sonra otomatik silinir.",
-      "Gelen resimler özel mesaj ekranında kart olarak gösterilecek şekilde düzenlendi.",
-      "Gelen ses kayıtları play/pause düğmesi, ilerleme çubuğu ve süre bilgisi olan ses oynatıcı kartıyla gösterilir.",
-      "Ses gönderim akışı iyileştirildi: kayıt durdurulduktan sonra kullanıcı kaydı dinleyip Gönder veya Vazgeç seçeneğiyle onay verebilir.",
-      "Resim gönderiminde önizleme ve Gönder/Vazgeç onay ekranı eklendi.",
-      "MoIRC medya butonu özel mesaj ekranında daha kullanışlı olacak şekilde sağ işlem alanına taşındı.",
-      "Alıcı MoIRC kullanıcısı olarak çevrimiçi görünmüyorsa medya gönderimi yapılmadan renkli uyarı gösterilir.",
-      "MoIRC geçici medya yaşam süresi en fazla 10 dakika olacak ve alıcı gördükten kısa süre sonra silinecek şekilde düzenlendi.",
-      "Nick tab tamamlama sistemi iyileştirildi; mIRC renk/biçim kodları yazılırken aramada bu kodlar yok sayılır ve mevcut renk kodu korunarak nick tamamlama yapılır.",
-      "Radyo oynatma kararlılığı ve hata mesajları iyileştirildi.",
-      "Foreground Service / ANR sorunları için Android tarafında kararlılık iyileştirmeleri yapıldı."
+      "Bildirim tercihleriniz artık otomatik sıfırlanmaz, seçiminiz korunur.",
+      "GevezeStory akışına 'Daha Fazla Göster' butonu eklendi.",
+      "Sesli mesaj gönderimi 'basılı tutarak kaydet' yapısına dönüştürüldü.",
+      "Görsel gönderimine kamera ile anlık fotoğraf çekme seçeneği eklendi.",
+      "Resim sıkıştırma ve medya boyut sınırları optimize edildi (Max 400 KB)."
     ],
     "en-US": [
-      "Added profile avatar support to Geveze.org and TRSohbet.com nick lists.",
-      "Existing rank icons are preserved for users without avatars.",
-      "Added profile avatar display to the user action menu.",
-      "Made Geveze.org special/decorated nick styles visible using real special nick data.",
-      "Improved special nick colors, bold styling, and glow effects in the nick list and user action menu.",
-      "Media sending now uses only the safe MOIRCMEDYA trigger over IRC, while image and audio data are delivered through a temporary Firebase side channel.",
-      "Incoming images are now displayed as media cards in private message screens.",
-      "Incoming voice messages are now shown with a play/pause button, progress bar, and duration instead of only filename and size.",
-      "Improved the voice sending flow: after stopping a recording, users can listen to it and confirm Send or Cancel.",
-      "Added image preview with Send/Cancel confirmation before sending.",
-      "Moved the MoIRC media button to the right-side action area in private message screens for easier access.",
-      "Added a colored warning when the recipient is not currently detected as an online MoIRC user; media is not sent in that case.",
-      "Temporary MoIRC media now has a maximum lifetime of 10 minutes and is scheduled for deletion shortly after the recipient sees it.",
-      "Improved nick tab completion so mIRC color/format codes are ignored during matching while the typed formatting prefix is preserved.",
-      "Improved radio playback stability and error messages.",
-      "Improved Android stability for Foreground Service / ANR related issues."
+      "Notification settings now keep your preference without auto-resetting.",
+      "Added a 'Show More' button to the GevezeStory feed.",
+      "Voice messaging updated to hold-to-record mode.",
+      "Added option to take instant photos directly from the camera.",
+      "Optimized image compression and media limits (Max 400 KB)."
     ]
   }
 }
