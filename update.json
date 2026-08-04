@@ -1,21 +1,21 @@
 {
-  "min_build_code": 47,
-  "latest_version": "2.1.19",
+  "min_build_code": 51,
+  "latest_version": "2.1.20",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Bildirim tercihleriniz artık otomatik sıfırlanmaz, seçiminiz korunur.",
-      "GevezeStory akışına 'Daha Fazla Göster' butonu eklendi.",
-      "Sesli mesaj gönderimi 'basılı tutarak kaydet' yapısına dönüştürüldü.",
-      "Görsel gönderimine kamera ile anlık fotoğraf çekme seçeneği eklendi.",
-      "Resim sıkıştırma ve medya boyut sınırları optimize edildi (Max 400 KB)."
+      "GevezeStory içeriklerinde bazı cihazlarda ses gelip görüntünün gelmemesine neden olan dış sunucu sertifika kaynaklı medya erişim sorunu giderildi.",
+      "Yeni abonelik satın alma ve mevcut aboneliği yükseltme akışı korundu; yükseltme işlemlerinin sorunsuz tamamlanması için Billing uyumluluğu güvenli çalışma durumuna alındı.",
+      "Premium karşılaştırma tablosuna Resim Gönderme ve Ses Gönderme özellikleri eklendi.",
+      "Ücretsiz sürümde arka planda açık kalma süresinin 2 saat olduğu doğrulandı; Premium kullanıcılar için arka plan kullanımı sınırsızdır.",
+      "Uygulama kararlılığı geliştirildi ve sorunlar giderildi."
     ],
     "en-US": [
-      "Notification settings now keep your preference without auto-resetting.",
-      "Added a 'Show More' button to the GevezeStory feed.",
-      "Voice messaging updated to hold-to-record mode.",
-      "Added option to take instant photos directly from the camera.",
-      "Optimized image compression and media limits (Max 400 KB)."
+      "Fixed a media access issue where GevezeStory videos could play audio without image on some devices due to the external story server certificate problem.",
+      "Preserved the working new subscription purchase and subscription upgrade flow; billing behavior was kept in the safe working state for upgrades.",
+      "Added Image Sending and Audio Sending to the Premium feature comparison table.",
+      "Confirmed that the free version can remain active in the background for 2 hours; Premium users have unlimited background usage.",
+      "App stability has been improved and issues have been resolved."
     ]
   }
 }
