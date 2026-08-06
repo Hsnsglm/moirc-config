@@ -1,21 +1,31 @@
 {
-  "min_build_code": 51,
+  "min_build_code": 52,
   "latest_version": "2.1.20",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "GevezeStory içeriklerinde bazı cihazlarda ses gelip görüntünün gelmemesine neden olan dış sunucu sertifika kaynaklı medya erişim sorunu giderildi.",
-      "Yeni abonelik satın alma ve mevcut aboneliği yükseltme akışı korundu; yükseltme işlemlerinin sorunsuz tamamlanması için Billing uyumluluğu güvenli çalışma durumuna alındı.",
-      "Premium karşılaştırma tablosuna Resim Gönderme ve Ses Gönderme özellikleri eklendi.",
-      "Ücretsiz sürümde arka planda açık kalma süresinin 2 saat olduğu doğrulandı; Premium kullanıcılar için arka plan kullanımı sınırsızdır.",
-      "Uygulama kararlılığı geliştirildi ve sorunlar giderildi."
+      "Google Play Faturalandırma Kitaplığı 8.0.0 sürümüne yükseltildi ve Play Console uyumluluğu sağlandı.",
+      "Yeni abonelik satın alımlarında uygun temel plan ve teklif belirteci güvenli biçimde Google Play'e iletiliyor.",
+      "Mevcut abonelerin plan yükseltmelerinde aktif satın alma bilgisi ve satın alma belirteci korunarak orantılı zaman aktarımı uygulanıyor.",
+      "Bekleyen, iptal edilen, kullanılamayan ürün/teklif ve faturalandırma bağlantı hataları birbirinden ayrılarak 10 dilde anlaşılır mesajlarla gösteriliyor.",
+      "Satın alma onayı completePurchase üzerinden sürdürülüyor; mevcut abonelik planı arayüzü ve yalnızca yükseltme kuralları korunuyor.",
+      "GevezeStory resimli hikâyelerinin Android uygulamasında siyah veya boş açılmasına neden olan iç içe pencere sorunu giderildi; hikâyeler tam ekran kök rota üzerinden eksiksiz arayüzle açılıyor.",
+      "Hikâye ekranındaki ses, takip ve duraklatma kontrolleri sağ üstte dikey olarak düzenlendi; takip, takipten çıkma ve gizli profil istekleri sunucudaki gerçek durumla eşitlendi.",
+      "Android kenardan kenara görünümünde durum çubuğu, kamera çentiği, ekran deliği, hareket alanı ve üç tuşlu navigasyon için dinamik güvenli alan koruması eklendi.",
+      "GevezeStory takip bildirimleri, hata mesajları, tepki ve cevap bildirimleri ile kontrol açıklamaları uygulamada seçili olan dile göre gösterilecek şekilde 10 dilde yerelleştirildi.",
+      "Uygulama sürümü 2.1.20+52 yapıldı ve minimum desteklenen build kodu 57 olarak güncellendi."
     ],
     "en-US": [
-      "Fixed a media access issue where GevezeStory videos could play audio without image on some devices due to the external story server certificate problem.",
-      "Preserved the working new subscription purchase and subscription upgrade flow; billing behavior was kept in the safe working state for upgrades.",
-      "Added Image Sending and Audio Sending to the Premium feature comparison table.",
-      "Confirmed that the free version can remain active in the background for 2 hours; Premium users have unlimited background usage.",
-      "App stability has been improved and issues have been resolved."
+      "Google Play Billing Library has been upgraded to version 8.0.0 and Play Console compatibility has been ensured.",
+      "For new subscription purchases, the appropriate base plan and offer token are securely transmitted to Google Play.",
+      "For existing subscribers, plan upgrades are implemented with proportional time transfer, preserving active purchase information and purchase token.",
+      "Pending, canceled, unavailable products/offers and billing link errors are separated and displayed with clear messages in 10 languages.",
+      "Purchase confirmation is maintained via completePurchase; the existing subscription plan interface and only upgrade rules are preserved.",
+      "The nested window issue that caused GevezeStory picture stories to open black or blank in the Android app has been fixed; stories now open with a complete interface via the full-screen root route.",
+      "The audio, follow, and pause controls on the story screen have been vertically arranged in the upper right; follow, unfollow, and private profile requests have been synchronized with the actual status on the server.", 
+      "In the Android edge-to-edge view, the status bar, camera notch, screen hole, and motion have been corrected. Dynamic safe area protection has been added for the area and three-button navigation.",
+      "GevezeStory tracking notifications, error messages, reaction and reply notifications, and control descriptions have been localized in 10 languages ​​to be displayed according to the language selected in the application.",
+      "The application version has been updated to 2.1.20+52, and the minimum supported build code has been updated to 57."
     ]
   }
 }
