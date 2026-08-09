@@ -1,31 +1,26 @@
 {
-  "min_build_code": 52,
-  "latest_version": "2.1.20",
+  "min_build_code": 53,
+  "latest_version": "2.1.21",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Google Play Faturalandırma Kitaplığı 8.0.0 sürümüne yükseltildi ve Play Console uyumluluğu sağlandı.",
-      "Yeni abonelik satın alımlarında uygun temel plan ve teklif belirteci güvenli biçimde Google Play'e iletiliyor.",
-      "Mevcut abonelerin plan yükseltmelerinde aktif satın alma bilgisi ve satın alma belirteci korunarak orantılı zaman aktarımı uygulanıyor.",
-      "Bekleyen, iptal edilen, kullanılamayan ürün/teklif ve faturalandırma bağlantı hataları birbirinden ayrılarak 10 dilde anlaşılır mesajlarla gösteriliyor.",
-      "Satın alma onayı completePurchase üzerinden sürdürülüyor; mevcut abonelik planı arayüzü ve yalnızca yükseltme kuralları korunuyor.",
-      "GevezeStory resimli hikâyelerinin Android uygulamasında siyah veya boş açılmasına neden olan iç içe pencere sorunu giderildi; hikâyeler tam ekran kök rota üzerinden eksiksiz arayüzle açılıyor.",
-      "Hikâye ekranındaki ses, takip ve duraklatma kontrolleri sağ üstte dikey olarak düzenlendi; takip, takipten çıkma ve gizli profil istekleri sunucudaki gerçek durumla eşitlendi.",
-      "Android kenardan kenara görünümünde durum çubuğu, kamera çentiği, ekran deliği, hareket alanı ve üç tuşlu navigasyon için dinamik güvenli alan koruması eklendi.",
-      "GevezeStory takip bildirimleri, hata mesajları, tepki ve cevap bildirimleri ile kontrol açıklamaları uygulamada seçili olan dile göre gösterilecek şekilde 10 dilde yerelleştirildi.",
-      "Uygulama sürümü 2.1.20+52 yapıldı ve minimum desteklenen build kodu 57 olarak güncellendi."
+      "Şekilli ve animasyonlu nickler eklendi: web sürümündeki özel tasarımlar (özel yazı tipleri, gradyan renkler, pulse/fade/rainbow animasyonları) artık nick listesinde, kullanıcı işlemleri menüsünde ve mesaj ekranında görüntüleniyor.",
+      "Bozuk veya eksik yüklenmiş JPEG profil resimleri otomatik olarak onarılarak gösteriliyor; web'de görünüp uygulamada görünmeyen profil resimleri sorunu giderildi.",
+      "Profil resimleri artık sunucudan canlı olarak yenileniyor; yeni yüklenen avatarlar uygulamayı yeniden başlatmaya gerek kalmadan nick listesinde otomatik görünüyor.",
+      "Türkçe kelimelerin içindeki nicklerin yanlış bahsetme (mention) bildirimi tetiklemesi giderildi; kelime sınırları Unicode uyumlu hale getirildi.",
+      "Arka plan bağlantı süresi dolmadan 60, 30 ve 10 dakika kala uyarı bildirimi gösteriliyor; bağlantı sonlandığında bilgilendirme bildirimi gönderiliyor.",
+      "GevezeStory hikâyeleri için HTTPS öncelikli yükleme ile daha kararlı görüntüleme sağlandı.",
+      "Uygulama sürümü 2.1.21+53 yapıldı."
     ],
     "en-US": [
-      "Google Play Billing Library has been upgraded to version 8.0.0 and Play Console compatibility has been ensured.",
-      "For new subscription purchases, the appropriate base plan and offer token are securely transmitted to Google Play.",
-      "For existing subscribers, plan upgrades are implemented with proportional time transfer, preserving active purchase information and purchase token.",
-      "Pending, canceled, unavailable products/offers and billing link errors are separated and displayed with clear messages in 10 languages.",
-      "Purchase confirmation is maintained via completePurchase; the existing subscription plan interface and only upgrade rules are preserved.",
-      "The nested window issue that caused GevezeStory picture stories to open black or blank in the Android app has been fixed; stories now open with a complete interface via the full-screen root route.",
-      "The audio, follow, and pause controls on the story screen have been vertically arranged in the upper right; follow, unfollow, and private profile requests have been synchronized with the actual status on the server.", 
-      "In the Android edge-to-edge view, the status bar, camera notch, screen hole, and motion have been corrected. Dynamic safe area protection has been added for the area and three-button navigation.",
-      "GevezeStory tracking notifications, error messages, reaction and reply notifications, and control descriptions have been localized in 10 languages ​​to be displayed according to the language selected in the application.",
-      "The application version has been updated to 2.1.20+52, and the minimum supported build code has been updated to 57."
+      "Added styled and animated nicknames: custom designs from the web version (custom fonts, gradient colors, pulse/fade/rainbow animations) are now displayed in the nick list, the user actions menu, and the message screen.",
+      "Corrupted or partially uploaded JPEG profile pictures are now automatically repaired and displayed; fixed the issue where profile pictures were visible on the web but not in the app.",
+      "Profile pictures are now refreshed live from the server; newly uploaded avatars appear automatically in the nick list without restarting the app.",
+      "Fixed false mention notifications triggered by nicknames inside Turkish words; word boundaries are now Unicode-aware.",
+      "Warning notifications are shown 60, 30, and 10 minutes before the background connection time expires; an informational notification is sent when the connection ends.",
+      "More stable GevezeStory viewing with HTTPS-first loading.",
+      "The application version has been updated to 2.1.21+53."
     ]
   }
 }
+
