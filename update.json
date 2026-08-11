@@ -1,5 +1,5 @@
 {
-  "min_build_code": 53,
+  "min_build_code": 54,
   "latest_version": "2.1.21",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
@@ -9,8 +9,8 @@
       "Profil resimleri artık sunucudan canlı olarak yenileniyor; yeni yüklenen avatarlar uygulamayı yeniden başlatmaya gerek kalmadan nick listesinde otomatik görünüyor.",
       "Türkçe kelimelerin içindeki nicklerin yanlış bahsetme (mention) bildirimi tetiklemesi giderildi; kelime sınırları Unicode uyumlu hale getirildi.",
       "Arka plan bağlantı süresi dolmadan 60, 30 ve 10 dakika kala uyarı bildirimi gösteriliyor; bağlantı sonlandığında bilgilendirme bildirimi gönderiliyor.",
-      "GevezeStory hikâyeleri için HTTPS öncelikli yükleme ile daha kararlı görüntüleme sağlandı.",
-      "Uygulama sürümü 2.1.21+53 yapıldı."
+      "Login ve şifre giriş ekranlarında artık ENTER tuşu ile direk 'GÖNDER' botunu işlevi aktifleştirildi.",
+      "Uygulama sürümü 2.1.21+54 yapıldı."
     ],
     "en-US": [
       "Added styled and animated nicknames: custom designs from the web version (custom fonts, gradient colors, pulse/fade/rainbow animations) are now displayed in the nick list, the user actions menu, and the message screen.",
@@ -18,8 +18,8 @@
       "Profile pictures are now refreshed live from the server; newly uploaded avatars appear automatically in the nick list without restarting the app.",
       "Fixed false mention notifications triggered by nicknames inside Turkish words; word boundaries are now Unicode-aware.",
       "Warning notifications are shown 60, 30, and 10 minutes before the background connection time expires; an informational notification is sent when the connection ends.",
-      "More stable GevezeStory viewing with HTTPS-first loading.",
-      "The application version has been updated to 2.1.21+53."
+      "The 'SEND' button function, activated directly with the ENTER key, has now been added to the login and password entry screens.",
+      "The application version has been updated to 2.1.21+54."
     ]
   }
 }
