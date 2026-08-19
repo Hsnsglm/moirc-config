@@ -1,25 +1,27 @@
 {
-  "min_build_code": 54,
-  "latest_version": "2.1.21",
+  "min_build_code": 63,
+  "latest_version": "2.2.1",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "Şekilli ve animasyonlu nickler eklendi: web sürümündeki özel tasarımlar (özel yazı tipleri, gradyan renkler, pulse/fade/rainbow animasyonları) artık nick listesinde, kullanıcı işlemleri menüsünde ve mesaj ekranında görüntüleniyor.",
-      "Bozuk veya eksik yüklenmiş JPEG profil resimleri otomatik olarak onarılarak gösteriliyor; web'de görünüp uygulamada görünmeyen profil resimleri sorunu giderildi.",
-      "Profil resimleri artık sunucudan canlı olarak yenileniyor; yeni yüklenen avatarlar uygulamayı yeniden başlatmaya gerek kalmadan nick listesinde otomatik görünüyor.",
-      "Türkçe kelimelerin içindeki nicklerin yanlış bahsetme (mention) bildirimi tetiklemesi giderildi; kelime sınırları Unicode uyumlu hale getirildi.",
-      "Arka plan bağlantı süresi dolmadan 60, 30 ve 10 dakika kala uyarı bildirimi gösteriliyor; bağlantı sonlandığında bilgilendirme bildirimi gönderiliyor.",
-      "Login ve şifre giriş ekranlarında artık ENTER tuşu ile direk 'GÖNDER' botunu işlevi aktifleştirildi.",
-      "Uygulama sürümü 2.1.21+54 yapıldı."
+      "🔧 NickServ ilk şifre uyarısı artık pencere açılır açılmaz anında görünüyor (kaydırma gereksinimi kalktı)",
+      "📨 Kullanıcı notice'ları özel pencereye ek olarak aktif pencerede de gösteriliyor",
+      "📻 Servislerden (ChanServ vb.) notice olarak gelen radyo linkleri otomatik ekleniyor",
+      "🏷️ Radyo adları akıllandı: ham sunucu adresi yerine 'Radyorockfm', 'KalbimFM', '#rock Radyo' gibi anlaşılır isimler",
+      "👆 Üst bildirim çubuğu dokunma geçirgenliği düzeltildi (altındaki butonlar çalışıyor)",
+      "🔔 Medya bildirimleri anlık olarak size ulaşıyor ve Gönderdiğiniz medyaları (resim/ses) karşı taraftan da silebilme özelliği (herkesten sil)",
+      "💳 Yeni kademeli abonelik sistemi (Standart/Gold/Premium)",
+      "🛡️ Eski aboneler için çift ödeme koruması"
     ],
     "en-US": [
-      "Added styled and animated nicknames: custom designs from the web version (custom fonts, gradient colors, pulse/fade/rainbow animations) are now displayed in the nick list, the user actions menu, and the message screen.",
-      "Corrupted or partially uploaded JPEG profile pictures are now automatically repaired and displayed; fixed the issue where profile pictures were visible on the web but not in the app.",
-      "Profile pictures are now refreshed live from the server; newly uploaded avatars appear automatically in the nick list without restarting the app.",
-      "Fixed false mention notifications triggered by nicknames inside Turkish words; word boundaries are now Unicode-aware.",
-      "Warning notifications are shown 60, 30, and 10 minutes before the background connection time expires; an informational notification is sent when the connection ends.",
-      "The 'SEND' button function, activated directly with the ENTER key, has now been added to the login and password entry screens.",
-      "The application version has been updated to 2.1.21+54."
+      "🔧 NickServ message window fixed: the first password notice from NickServ now appears instantly when you open the window; no more swiping needed to see it.",
+      "📨 Notices from users are now also shown in the currently active window in addition to the private window, so no notice goes unnoticed.",
+      "📻 Automatic radio detection improved: radio stream links arriving as notices from services like ChanServ are now detected and added to the radio list automatically.",
+      "🏷️ Smarter radio names: added stations are now listed with readable names (e.g. 'Radyorockfm', 'KalbimFM' or '#rock Radio') instead of raw server addresses.",
+      "👆 Top notification bar touch pass-through fixed: close and user-list buttons underneath now work properly while a notification is visible.",
+      "🔔 Media notifications improved: media messages received while the app is closed now show 'Sent you a media file' instead of technical codes.",
+      "💳 New tiered subscription system: choose Standard, Gold or Premium with weekly, monthly, 6-month or yearly periods. Upgrades apply your remaining time proportionally.",
+      "🛡️ For legacy package subscribers: your current subscription continues with all Premium features; double-billing protection prevents accidentally starting a second subscription."
     ]
   }
 }
