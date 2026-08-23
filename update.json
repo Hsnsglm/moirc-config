@@ -1,27 +1,41 @@
 {
   "min_build_code": 63,
-  "latest_version": "2.2.1",
+  "latest_version": "2.2.2",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "🔧 NickServ ilk şifre uyarısı artık pencere açılır açılmaz anında görünüyor (kaydırma gereksinimi kalktı)",
-      "📨 Kullanıcı notice'ları özel pencereye ek olarak aktif pencerede de gösteriliyor",
-      "📻 Servislerden (ChanServ vb.) notice olarak gelen radyo linkleri otomatik ekleniyor",
-      "🏷️ Radyo adları akıllandı: ham sunucu adresi yerine 'Radyorockfm', 'KalbimFM', '#rock Radyo' gibi anlaşılır isimler",
-      "👆 Üst bildirim çubuğu dokunma geçirgenliği düzeltildi (altındaki butonlar çalışıyor)",
-      "🔔 Medya bildirimleri anlık olarak size ulaşıyor ve Gönderdiğiniz medyaları (resim/ses) karşı taraftan da silebilme özelliği (herkesten sil)",
-      "💳 Yeni kademeli abonelik sistemi (Standart/Gold/Premium)",
-      "🛡️ Eski aboneler için çift ödeme koruması"
+      "😊 Emoji desteği geldi! \":)\", \":D\", \";)\" gibi yazılan ifadeler artık web kullanıcılarında olduğu gibi gerçek emoji olarak görünüyor (🙂 😃 😉).",
+      "Bitişik ve coşkulu yazımlar destekleniyor: \":D:D:D\" mesajı 😃😃😃 olarak, \":))))\" ise duygusu korunarak 🙂))) şeklinde görünür.",
+      "90'a yakın ifade tanınıyor: 🤔 düşünme (:?), 😭 ağlama (T_T), 🤐 sus işareti (:X), 😡 kızgınlık (:@), 👍 beğeni (y), 🙌 kutlama (\\o/), 💤 uyku (zzz) ve daha fazlası.",
+      "Dilerseniz Emoji gösterimlerini; Ayarlar → Görünüm'den kapatabilirsiniz.",
+      "📜 Script menü sistemi güçlendi: mIRC'teki gibi 'menu' komutuyla yazdığınız özel sağ tık menüleri artık moIRC'te de çalışıyor. Kanal, özel mesaj, nick listesi ve durum penceresi için ayrı menüler tanımlayabilirsiniz.",
+      "Popup menülere kolay erişim: Bir pencere için tanımlı menü varsa üst barda mor 'Popup Menü' butonu belirir — tek dokunuşla menünüz açılır, uzun basma ile kopyalama özelliği de aynen korunur.",
+      "Popup düzenleyici yenilendi: Popup eklerken hangi bölüme (Durum, Kanal, Özel, Nick Listesi, Menü Bar) kaydedileceğini üstteki seçim çipleriyle kolayca belirleyebilirsiniz. mIRC'ten kopyaladığınız popups.ini dosyaları bölümleriyle birlikte tanınır.",
+      "🛠️ Script RAW olayları düzeltildi: 'raw 311:*:{ }' gibi sunucu yanıtlarını yakalayan script kodları artık mIRC ile birebir uyumlu şekilde tetikleniyor.",
+      "Kanala giriş engelleri artık görünür: Yasaklı veya davetli kanallara girişte sunucunun gönderdiği hata mesajları (519/520) ekranda gösteriliyor; neden giremediğinizi anında görürsünüz.",
+      "Pencere kapatma sorunları giderildi: Diyalog pencereleri kapatılırken oluşan takılmalar ve hayalet pencere sorunu düzeltildi.",
+      "✏️ Script editörü yenilendi: Çok satırlı kodlarda yaşanan kaydırma sorunu tamamen giderildi — en alt satıra artık sorunsuz inebilirsiniz. Alt durum çubuğunda satır:sütun bilgisi, toplam satır sayısı ve Geri Al / Yinele butonları her zaman görünür.",
+      "⚡ Hazır Kodlar geldi: on TEXT, on JOIN, alias, menu, raw ve timer gibi sık kullanılan mIRC kalıplarını tek dokunuşla imlecin olduğu yere ekleyin — sıfırdan yazmaya son.",
+      "Editör düzeni profesyonelleşti: Üst sekmeler sabitlendi (sayfayla kaymaz), klavye açılınca yazma alanı genişler, çift geri tuşu karmaşası giderildi.",
+      "🔒 Abonelik güvenliği güçlendirildi: Abonelik süresi dolduğunda veya iptal edildiğinde uygulama açık olsa bile durum otomatik algılanır — planınız ve özellikleriniz anında güncellenir, yeniden başlatma gerekmez.",
+      "🌍 Tüm yeni özellikler 10 dilde: Türkçe, İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Hollandaca, Portekizce, Rusça ve Arapça arayüz çevirileri eksiksiz güncellendi."
     ],
     "en-US": [
-      "🔧 NickServ message window fixed: the first password notice from NickServ now appears instantly when you open the window; no more swiping needed to see it.",
-      "📨 Notices from users are now also shown in the currently active window in addition to the private window, so no notice goes unnoticed.",
-      "📻 Automatic radio detection improved: radio stream links arriving as notices from services like ChanServ are now detected and added to the radio list automatically.",
-      "🏷️ Smarter radio names: added stations are now listed with readable names (e.g. 'Radyorockfm', 'KalbimFM' or '#rock Radio') instead of raw server addresses.",
-      "👆 Top notification bar touch pass-through fixed: close and user-list buttons underneath now work properly while a notification is visible.",
-      "🔔 Media notifications improved: media messages received while the app is closed now show 'Sent you a media file' instead of technical codes.",
-      "💳 New tiered subscription system: choose Standard, Gold or Premium with weekly, monthly, 6-month or yearly periods. Upgrades apply your remaining time proportionally.",
-      "🛡️ For legacy package subscribers: your current subscription continues with all Premium features; double-billing protection prevents accidentally starting a second subscription."
+      "😊 Emoji support is here! Expressions like \":)\", \":D\" and \";)\" now appear as real emoji (🙂 😃 😉), just like web users see them.",
+      "Joined and enthusiastic typing supported: \":D:D:D\" shows as 😃😃😃, and \":))))\" keeps its feeling, appearing as 🙂))).",
+      "Nearly 90 expressions recognized: 🤔 thinking (:?), 😭 crying (T_T), 🤐 zipped lips (:X), 😡 anger (:@), 👍 thumbs up (y), 🙌 celebration (\\o/), 💤 sleepy (zzz) and more.",
+      "You can disable it anytime under Settings → Appearance.",
+      "📜 Script menu system upgraded: custom right-click menus written with the 'menu' command now work in moIRC just like in mIRC. You can define separate menus for channel, private message, nick list and status windows.",
+      "Easy access to popup menus: when a window has a menu defined, a purple 'Popup Menu' button appears in the top bar — one tap opens your menu, while long-press copying still works as before.",
+      "Popup editor redesigned: when adding popups, you can now pick which section they belong to (Status, Channel, Query, Nick List, Menu Bar) using the selector chips at the top. popups.ini files copied from mIRC are recognized with their sections.",
+      "🛠️ Script RAW events fixed: script code that catches server replies like 'raw 311:*:{ }' now triggers exactly as it does in mIRC.",
+      "Channel join blocks are now visible: when you can't join a banned or invite-only channel, the server's error messages (519/520) are shown on screen so you instantly know why.",
+      "Window closing issues resolved: freezes when closing dialog windows and the ghost window problem have been fixed.",
+      "✏️ Script editor revamped: the scrolling issue in multi-line code is completely fixed — you can now reach the last line smoothly. The bottom status bar always shows line:column info, total line count and Undo / Redo buttons.",
+      "⚡ Code Snippets arrived: insert common mIRC patterns like on TEXT, on JOIN, alias, menu, raw and timer right at your cursor with a single tap — no more writing from scratch.",
+      "Editor layout goes pro: top tabs are now pinned (they no longer scroll away), the writing area expands when the keyboard opens, the confusing double back button is gone, and the Popups section picker (Status/Channel/Query) is now clear and flicker-free.",
+      "🔒 Subscription security hardened: when your subscription expires or is cancelled, the app detects it automatically even while running — your plan and features update instantly, no restart needed.",
+      "🌍 All new features in 10 languages: Turkish, English, German, Spanish, French, Italian, Dutch, Portuguese, Russian and Arabic interface translations are fully updated."
     ]
   }
 }
