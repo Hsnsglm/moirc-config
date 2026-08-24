@@ -1,41 +1,27 @@
 {
-  "min_build_code": 64,
-  "latest_version": "2.2.2",
+  "min_build_code": 65,
+  "latest_version": "2.2.3",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "😊 Emoji desteği geldi! \":)\", \":D\", \";)\" gibi yazılan ifadeler artık web kullanıcılarında olduğu gibi gerçek emoji olarak görünüyor (🙂 😃 😉).",
-      "Bitişik ve coşkulu yazımlar destekleniyor: \":D:D:D\" mesajı 😃😃😃 olarak, \":))))\" ise duygusu korunarak 🙂))) şeklinde görünür.",
-      "90'a yakın ifade tanınıyor: 🤔 düşünme (:?), 😭 ağlama (T_T), 🤐 sus işareti (:X), 😡 kızgınlık (:@), 👍 beğeni (y), 🙌 kutlama (\\o/), 💤 uyku (zzz) ve daha fazlası.",
-      "Dilerseniz Emoji gösterimlerini; Ayarlar → Görünüm'den kapatabilirsiniz.",
-      "📜 Script menü sistemi güçlendi: mIRC'teki gibi 'menu' komutuyla yazdığınız özel sağ tık menüleri artık moIRC'te de çalışıyor. Kanal, özel mesaj, nick listesi ve durum penceresi için ayrı menüler tanımlayabilirsiniz.",
-      "Popup menülere kolay erişim: Bir pencere için tanımlı menü varsa üst barda mor 'Popup Menü' butonu belirir — tek dokunuşla menünüz açılır, uzun basma ile kopyalama özelliği de aynen korunur.",
-      "Popup düzenleyici yenilendi: Popup eklerken hangi bölüme (Durum, Kanal, Özel, Nick Listesi, Menü Bar) kaydedileceğini üstteki seçim çipleriyle kolayca belirleyebilirsiniz. mIRC'ten kopyaladığınız popups.ini dosyaları bölümleriyle birlikte tanınır.",
-      "🛠️ Script RAW olayları düzeltildi: 'raw 311:*:{ }' gibi sunucu yanıtlarını yakalayan script kodları artık mIRC ile birebir uyumlu şekilde tetikleniyor.",
-      "Kanala giriş engelleri artık görünür: Yasaklı veya davetli kanallara girişte sunucunun gönderdiği hata mesajları (519/520) ekranda gösteriliyor; neden giremediğinizi anında görürsünüz.",
-      "Pencere kapatma sorunları giderildi: Diyalog pencereleri kapatılırken oluşan takılmalar ve hayalet pencere sorunu düzeltildi.",
-      "✏️ Script editörü yenilendi: Çok satırlı kodlarda yaşanan kaydırma sorunu tamamen giderildi — en alt satıra artık sorunsuz inebilirsiniz. Alt durum çubuğunda satır:sütun bilgisi, toplam satır sayısı ve Geri Al / Yinele butonları her zaman görünür.",
-      "⚡ Hazır Kodlar geldi: on TEXT, on JOIN, alias, menu, raw ve timer gibi sık kullanılan mIRC kalıplarını tek dokunuşla imlecin olduğu yere ekleyin — sıfırdan yazmaya son.",
-      "Editör düzeni profesyonelleşti: Üst sekmeler sabitlendi (sayfayla kaymaz), klavye açılınca yazma alanı genişler, çift geri tuşu karmaşası giderildi.",
-      "🔒 Abonelik güvenliği güçlendirildi: Abonelik süresi dolduğunda veya iptal edildiğinde uygulama açık olsa bile durum otomatik algılanır — planınız ve özellikleriniz anında güncellenir, yeniden başlatma gerekmez.",
-      "🌍 Tüm yeni özellikler 10 dilde: Türkçe, İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Hollandaca, Portekizce, Rusça ve Arapça arayüz çevirileri eksiksiz güncellendi."
+      "💬 Destek Hattı geldi! Uygulama içinden geliştiriciye (HsN) doğrudan mesaj ve ekran görüntüsü gönderebilirsiniz. Sohbetiniz cihazınıza bağlıdır — nick değiştirseniz, sunucu değiştirseniz hatta hiç giriş yapmasanız bile destek sohbet geçmişiniz kaybolmaz. Gelen cevaplar kırmızı rozetle bildirilir.",
+      "📝 Geri Bildirim sistemi: 'Sorun bildirin', 'Övgü gönderin' veya 'Öneride bulunun' — üç kategoriden birini seçip düşüncelerinizi iletin. Dilerseniz ekran görüntüsü ekleyin, tanılama bilgisi paylaşımını ve iletişim iznini siz kontrol edin.",
+      "🚀 Kolay erişim: Destek ve Geri Bildirim'e hem giriş ekranındaki 'Yardım ve Destek' butonundan hem de Ayarlar başlığındaki destek ikonundan tek dokunuşla ulaşabilirsiniz.",
+      "⌨️ Script editöründe büyük ferahlama: Klavye açıldığında üst başlık ve sekme çubukları otomatik gizlenir — kod yazma alanı artık ekranın tamamına yakınını kullanır. Önceden 2 satır görünürken şimdi 10+ satır kod görebilirsiniz.",
+      "⚡ Hazır Kodlar sekmeye özel hale geldi: Aliases sekmesinde alias örnekleri, Popups'ta menü öğeleri, Remote'ta on TEXT/on JOIN olayları, Users'ta erişim seviyeleri, Variables'ta değişken kalıpları — her sekme kendi formatına uygun şablonlar sunar.",
+      "🎨 Editör sadeleşti: Popups ve Users sekmelerindeki format açıklama şeritleri kaldırıldı — tüm sekmeler aynı temiz görünümde, kod alanı daha geniş.",
+      "🔢 Sayı koruması: '0.00 saniyede listelendi' gibi mesajlardaki sayılar artık yanlışlıkla emojiye dönüşmüyor. IP adresleri (0.0.0.0), ondalık sayılar (3.14) ve saat yazımları (12:30) güvende; '0_0' ve 'O.o' gibi gerçek ifadeler çalışmaya devam ediyor.",
+      "🌍 Tüm yenilikler Türkçe öncelikli olarak hazırlandı ve mevcut 10 dil desteğiyle uyumludur."
     ],
     "en-US": [
-      "😊 Emoji support is here! Expressions like \":)\", \":D\" and \";)\" now appear as real emoji (🙂 😃 😉), just like web users see them.",
-      "Joined and enthusiastic typing supported: \":D:D:D\" shows as 😃😃😃, and \":))))\" keeps its feeling, appearing as 🙂))).",
-      "Nearly 90 expressions recognized: 🤔 thinking (:?), 😭 crying (T_T), 🤐 zipped lips (:X), 😡 anger (:@), 👍 thumbs up (y), 🙌 celebration (\\o/), 💤 sleepy (zzz) and more.",
-      "You can disable it anytime under Settings → Appearance.",
-      "📜 Script menu system upgraded: custom right-click menus written with the 'menu' command now work in moIRC just like in mIRC. You can define separate menus for channel, private message, nick list and status windows.",
-      "Easy access to popup menus: when a window has a menu defined, a purple 'Popup Menu' button appears in the top bar — one tap opens your menu, while long-press copying still works as before.",
-      "Popup editor redesigned: when adding popups, you can now pick which section they belong to (Status, Channel, Query, Nick List, Menu Bar) using the selector chips at the top. popups.ini files copied from mIRC are recognized with their sections.",
-      "🛠️ Script RAW events fixed: script code that catches server replies like 'raw 311:*:{ }' now triggers exactly as it does in mIRC.",
-      "Channel join blocks are now visible: when you can't join a banned or invite-only channel, the server's error messages (519/520) are shown on screen so you instantly know why.",
-      "Window closing issues resolved: freezes when closing dialog windows and the ghost window problem have been fixed.",
-      "✏️ Script editor revamped: the scrolling issue in multi-line code is completely fixed — you can now reach the last line smoothly. The bottom status bar always shows line:column info, total line count and Undo / Redo buttons.",
-      "⚡ Code Snippets arrived: insert common mIRC patterns like on TEXT, on JOIN, alias, menu, raw and timer right at your cursor with a single tap — no more writing from scratch.",
-      "Editor layout goes pro: top tabs are now pinned (they no longer scroll away), the writing area expands when the keyboard opens, the confusing double back button is gone, and the Popups section picker (Status/Channel/Query) is now clear and flicker-free.",
-      "🔒 Subscription security hardened: when your subscription expires or is cancelled, the app detects it automatically even while running — your plan and features update instantly, no restart needed.",
-      "🌍 All new features in 10 languages: Turkish, English, German, Spanish, French, Italian, Dutch, Portuguese, Russian and Arabic interface translations are fully updated."
+      "💬 Support Line is here! Message the developer (HsN) directly from within the app — including screenshots. Your chat is tied to your device: even if you change your nick, switch servers or never log in at all, your conversation history is preserved. Incoming replies are announced with a red badge.",
+      "📝 Feedback system: choose 'Report a problem', 'Send praise' or 'Make a suggestion' and share your thoughts. Optionally attach a screenshot, and you control diagnostic-info sharing and contact permission.",
+      "🚀 Easy access: reach Support and Feedback with one tap — via the 'Help & Support' button on the login screen or the support icon in the Settings header.",
+      "⌨️ Big relief in the script editor: when the keyboard opens, the top header and tab bars hide automatically — the code area now uses nearly the whole screen. Where you previously saw 2 lines, you can now see 10+ lines of code.",
+      "⚡ Code Snippets are now tab-specific: alias examples in the Aliases tab, menu items in Popups, on TEXT/on JOIN events in Remote, access levels in Users, variable patterns in Variables — every tab offers templates matching its own format.",
+      "🎨 Cleaner editor: the format hint banners in the Popups and Users tabs were removed — all tabs share the same clean look with a larger code area.",
+      "🔢 Number protection: numbers in messages like 'listed in 0.00 seconds' no longer turn into emoji by mistake. IP addresses (0.0.0.0), decimals (3.14) and clock times (12:30) are safe, while real expressions like '0_0' and 'O.o' keep working.",
+      "🌍 All improvements are fully compatible with the existing 10-language interface."
     ]
   }
 }
