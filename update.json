@@ -1,29 +1,29 @@
 {
-  "min_build_code": 67,
-  "latest_version": "2.2.5",
+  "min_build_code": 69,
+  "latest_version": "2.2.7",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "📶 WiFi bağlantı sorunu kesin olarak çözüldü: Bazı ev WiFi ağlarında sunucuya bağlanırken yaşanan uzun bekleme ve \"Closing Link\" hatası tamamen giderildi — artık WiFi'de de mobil veride olduğu gibi saniyeler içinde bağlanırsınız.",
-      "👻 Görünmez özel pencere düzeltildi: Özel mesaj geldiğinde rozet yanıyor ama gönderen kişi Özel Mesajlar penceresinde görünmüyordu — artık gelen her özel mesajın penceresi listede anında görünür.",
-      "📢 Duyuru bildirimleri düzeltildi: Geliştiriciden gelen duyurular artık her durumda anlık bildirim olarak gösterilir — daha önce bazı durumlarda duyurular sessizce arşive düşüyor ve gözden kaçabiliyordu.",
-      "🔴 Okunmamış duyuru rozeti: Okumadığınız duyuru sayısı artık üst bardaki destek simgesinde ve Duyurular kartında kırmızı rozetle görünür — duyuruyu okuduğunuzda rozet otomatik temizlenir.",
-      "🚫 Özel mesaj Engelle butonu düzeltildi: Özel mesaj penceresindeki Engelle butonu artık yalnızca o kişinin özel mesajlarını engeller — kanal mesajları etkilenmez. Kanaldaki yazışmalarını görmeye devam edersiniz.",
-      "🪟 /window komutu mIRC uyumu: Scriptlerde kullanılan /window -g komutu artık pencere yoksa mIRC'teki gibi pencereyi otomatik oluşturur — @monitor benzeri script pencereleri sorunsuz çalışır.",
-      "💬 Destek sohbeti kaydırma düzeltmesi: Destek sohbetinde mesaj listesi artık doğru şekilde kayar ve yeni mesajlar düzgün görüntülenir.",
-      "👑 Kurucu (founder) simgesi düzeltildi: Kullanıcı listesinde kurucu yetkisine sahip kişilerin '.' öneki artık doğru şekilde tanınır ve gösterilir.",
-      "⚡ Altyapı iyileştirmeleri: Uygulama boyutu küçültüldü, Android 15 uyumu güncellendi ve genel performans artırıldı."
+      "📊 /stats komut çıktıları artık STATUS penceresinde görünüyor (oper listesi, uptime, ban listeleri).",
+      "🧩 Eksik sunucu yanıtları tamamlandı: /admin, /trace, /links, /whowas, /ison, /userhost ve /invite yanıtları artık görünüyor.",
+      "🪟 /whois çıktısı artık bulunduğunuz pencerede gösteriliyor.",
+      "⌨️ Yeni komut kısayolları: /w (whois), /n (names), /p (part), /k (kick), /chat (özel pencere).",
+      "👥 /op ve /deop artık birden fazla nick ile kullanılabiliyor: /op nick1 nick2 nick3",
+      "🔴 \"Her Mesajda\" bildirim ayarı seçiliyken gelen özel mesajlar sunucu şeridinde kırmızı rozetle gösteriliyor.",
+      "🎨 Mesaj renk düzeltmesi: \"nick değişimi\" veya \"mod değiştirdi\" gibi kelimeler içeren normal mesajlar artık yanlışlıkla renklendirilmiyor.",
+      "💛 Nick değiştirdiğinizde eski nickinizle yazdığınız mesajların \"kendi mesajım\" yazı/arka plan rengi artık kaybolmuyor.",
+      "⚡ Genel kararlılık iyileştirmeleri."
     ],
     "en-US": [
-      "📶 WiFi connection issue fixed for good: the long wait and \"Closing Link\" error when connecting on some home WiFi networks is completely resolved — you now connect within seconds on WiFi, just like on mobile data.",
-      "👻 Invisible private window fixed: when a private message arrived the badge lit up but the sender did not appear in the Private Messages window — now every incoming private chat appears in the list instantly.",
-      "📢 Announcement notifications fixed: announcements from the developer are now always shown as an instant notification — previously they could silently land in the archive and go unnoticed.",
-      "🔴 Unread announcement badge: the number of unread announcements now appears as a red badge on the support icon in the top bar and on the Announcements card — reading them clears the badge automatically.",
-      "🚫 Private-message Ignore button fixed: the Ignore button in a private message window now blocks only that person's private messages — their channel messages are not affected and remain visible.",
-      "🪟 /window mIRC compatibility: the /window -g command used in scripts now automatically creates the window if it doesn't exist, just like mIRC — @monitor-style script windows work flawlessly.",
-      "💬 Support chat scrolling fix: the message list in the support chat now scrolls correctly and new messages display properly.",
-      "👑 Founder prefix fixed: the '.' prefix of channel founders in the user list is now recognized and displayed correctly.",
-      "⚡ Infrastructure improvements: smaller app size, updated Android 15 compatibility and better overall performance."
+      "📊 /stats command output is now visible in the STATUS window (oper list, uptime, ban lists).",
+      "🧩 Missing server replies completed: /admin, /trace, /links, /whowas, /ison, /userhost and /invite replies are now shown.",
+      "🪟 /whois output is now shown in your current window.",
+      "⌨️ New command shortcuts: /w (whois), /n (names), /p (part), /k (kick), /chat (private window).",
+      "👥 /op and /deop now support multiple nicks: /op nick1 nick2 nick3",
+      "🔴 With the \"Every Message\" notification setting, incoming private messages now show a red badge on the server bar.",
+      "🎨 Message color fix: normal messages containing words like \"nick change\" or \"mode changed\" are no longer colored by mistake.",
+      "💛 After changing your nick, messages written with your old nick now keep their \"own message\" fore/background color.",
+      "⚡ General stability improvements."
     ]
   }
 }
