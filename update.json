@@ -1,20 +1,23 @@
 {
-  "min_build_code": 72,
-  "latest_version": "2.2.10",
+  "min_build_code": 73,
+  "latest_version": "2.2.11",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "YENİ — Ekrandan Doğrudan Kopyalama: Sohbet ekranında uzun basınca artık ayrı pencere açılmaz; tıpkı tarayıcıdaki gibi doğrudan ekranda seçim tutamaçları çıkar. Tutamaçları sürükleyerek birden fazla mesajı seçebilir, menüden Kopyala (renksiz) veya Renkli Kopyala (IRC renk kodlu) ile kopyalayabilirsiniz.",
-      "YENİ — Artık @Whois penceresinde 'Whois Çeken Nick [ HsN ]' satırındaki [ HsN ] bölümüne dokununca o nick'e otomatik WHOIS çekilir. Pencere salt-okunur olsa da sorun yok — dokunma yeterli.",
-      "YENİ — Op Teşekkür: Kanalda size yetki (+q/+a/+o/+h/+v) verildiğinde veya alındığında kanala komik ve espirili teşekkür/sitem mesajı gönderilir. 10 mod için ayrı ayrı mesajları Ayarlar → Genel → Op Teşekkür'den özelleştirebilirsiniz; özellik varsayılan açıktır, dilerseniz kapatabilirsiniz.",
-      "YENİ — Engelli Kalp Animasyonu: NoMercy botu engellenmiş (ignore/block) olsa bile size kalp gönderildiğinde ekranda kalp animasyonu artık gösteriliyor; botun mesajı gizli kalmaya devam eder."
+      "DÜZELTME — Oper Otomatik Girişi: Sunucu ayarlarında oper etkinken bazı sunucularda OPER komutu hiç gönderilmiyordu. Artık bağlantı tamamlandıktan birkaç saniye sonra oper girişi her sunucuda garantili olarak yapılır.",
+      "YENİ — GevezeStory Kanal Bildirimleri: Hikaye paylaşımları artık kanalda duyurulduğunda da GevezeStory rozetine yansıyor.",
+      "YENİ — Op Teşekkür + AMSG Muaf: Op teşekkür mesajları artık Ayarlar → Filtreler'deki AMSG Muaf listesindeki kanallara gönderilmiyor; diğer kanallarda aynen çalışmaya devam ediyor.",
+      "DÜZELTME — Arka Plan Bildirim Tercihi: 'Sadece Nickim Geçince' seçiliyken, uygulama son uygulamalardan kaydırılarak kapatılsa bile artık yalnızca nick'iniz geçen özel mesajlarda bildirim gelir. Her mesajda bildirim gelmesi sorunu giderildi.",
+      "DÜZELTME — Arka Plan Mesaj Kaybı: Sürekli Aktif modda uygulama saatlerce kapalı kalsa bile, arka planda kanallarda yazılan mesajlar artık eksiksiz geri yüklenir. Mesaj geçmişi tamponu büyük ölçüde genişletildi.",
+      "İYİLEŞTİRME — Pil Optimizasyonu Hatırlatması: Sürekli Aktif açıkken uygulama pil tasarrufu tarafından kısıtlanıyorsa (bildirimlerin ~10 dk sonra kesilmesine yol açar), açılışta nazik bir hatırlatma ile doğru ayara yönlendirilirsiniz."
     ],
     "en-US": [
-      "NEW — Direct On-Screen Copying: Long-pressing in the chat no longer opens a separate window; selection handles now appear directly on screen, just like in a browser. Drag the handles across multiple messages and use Copy (plain) or Copy with Colors (IRC color codes) from the menu.",
-      "NEW — In the @Whois window, tapping the [ HsN ] part of the 'Whois-Querying Nick [ HsN ]' line now automatically performs a WHOIS lookup on that nickname. It doesn't matter if the window is read-only—simply tapping it is enough.",
-      "NEW — Op Thanks: When you gain or lose channel status (+q/+a/+o/+h/+v), a funny thank-you/complaint message is sent to the channel. Customize all 10 messages in Settings → General → Op Thanks; enabled by default, can be turned off.",
-      "NEW — Blocked Heart Animation: Even when the NoMercy bot is blocked (ignore/block), the heart animation is now shown on screen when someone sends you a heart; the bot's message itself stays hidden."
+      "FIX — Automatic Operator Login: When operator was enabled in server settings, the OPER command was not being sent on some servers. Now, operator login is guaranteed on every server a few seconds after the connection is established.",
+      "NEW — GevezeStory Channel Notifications: Story shares now also appear on the GevezeStory badge when announced in the channel.",
+      "NEW — Operator Thanks + AMSG Exemption: Operator thanks messages are no longer sent to channels in the AMSG Exemption list in Settings → Filters; it continues to work as usual in other channels.",
+      "FIX — Background Notification Preference: When 'Only When My Nickname is Mentioned' is selected, notifications will now only appear for private messages where your nickname is mentioned, even if the application is closed by swiping from recent applications. The issue of notifications appearing for every message has been fixed.",
+      "FIX — Background Message Loss: Even if the application is closed for hours in Always Active mode, messages written in channels in the background are now fully restored. The message history buffer has been greatly expanded.",
+      "IMPROVEMENT — Battery Optimization Reminder: If the app is being restricted by battery saving while Always Active is enabled (leading to notifications stopping after ~10 minutes), you will be guided to the correct setting with a gentle reminder upon startup."
     ]
   }
 }
-
