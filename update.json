@@ -1,23 +1,24 @@
 {
-  "min_build_code": 73,
-  "latest_version": "2.2.11",
+{
+  "min_build_code": 74,
+  "latest_version": "2.2.12",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "DÜZELTME — Oper Otomatik Girişi: Sunucu ayarlarında oper etkinken bazı sunucularda OPER komutu hiç gönderilmiyordu. Artık bağlantı tamamlandıktan birkaç saniye sonra oper girişi her sunucuda garantili olarak yapılır.",
-      "YENİ — GevezeStory Kanal Bildirimleri: Hikaye paylaşımları artık kanalda duyurulduğunda da GevezeStory rozetine yansıyor.",
-      "YENİ — Op Teşekkür + AMSG Muaf: Op teşekkür mesajları artık Ayarlar → Filtreler'deki AMSG Muaf listesindeki kanallara gönderilmiyor; diğer kanallarda aynen çalışmaya devam ediyor.",
-      "DÜZELTME — Arka Plan Bildirim Tercihi: 'Sadece Nickim Geçince' seçiliyken, uygulama son uygulamalardan kaydırılarak kapatılsa bile artık yalnızca nick'iniz geçen özel mesajlarda bildirim gelir. Her mesajda bildirim gelmesi sorunu giderildi.",
-      "DÜZELTME — Arka Plan Mesaj Kaybı: Sürekli Aktif modda uygulama saatlerce kapalı kalsa bile, arka planda kanallarda yazılan mesajlar artık eksiksiz geri yüklenir. Mesaj geçmişi tamponu büyük ölçüde genişletildi.",
-      "İYİLEŞTİRME — Pil Optimizasyonu Hatırlatması: Sürekli Aktif açıkken uygulama pil tasarrufu tarafından kısıtlanıyorsa (bildirimlerin ~10 dk sonra kesilmesine yol açar), açılışta nazik bir hatırlatma ile doğru ayara yönlendirilirsiniz."
+      "DÜZELTME — Oper Girişi Yeniden Tasarlandı: Oper girişinde yaşanan bağlantı sorunları kökten çözüldü. Giriş artık her sunucuda aynı sırayla yapılır: önce ghost + release, sonra oper, gerekirse nick geçişi ve nick şifresi. Karantinalı/karantinasız tüm sunucularda tek seferde sorunsuz giriş yapılır.",
+      "DÜZELTME — Mesaj Seçimi: Mesajlarda basılı tutup seçim imlecini AŞAĞI doğru sürüklerken ekranın kendi kendine kayması ve yukarıda kalan seçimin kaybolması sorunu giderildi. Seçim artık her iki yönde de sorunsuz çalışır.",
+      "DÜZELTME — Hepsini Kopyala: Seçim menüsündeki 'Tümünü Seç' butonu 'Hepsini Kopyala' olarak yeniden adlandırıldı ve pencerede yukarıda kalan TÜM mesaj geçmişini kopyalar (eskiden yalnızca ekranda görünenler kopyalanıyordu).",
+      "YENİ — Logları Seçerek Silme: Kaydedilen log dosyalarında bir dosyaya basılı tutarak seçim modunu başlatabilir, birden fazla log dosyasını seçip tek seferde silebilirsiniz. Tek tek silme ve tümünü silme aynen devam ediyor.",
+      "İYİLEŞTİRME — Daha Sık Kullanıcı Listesi: Kanal kullanıcı listesindeki satır aralıkları daraltıldı; aynı ekranda artık çok daha fazla kullanıcı görünüyor. Kalabalık kanallarda listede gezinmek kolaylaştı.",
+      "DÜZELTME — Klavye Otomatik Büyük Harf: Klavye ayarlarındaki 'İlk harfi büyük yap' ve 'Noktadan sonra otomatik büyük harf' seçenekleri artık mesaj, yorum ve not alanlarında çalışıyor (özellikle GBoard klavyelerde çalışmıyordu). Nick ve şifre gibi alanlar etkilenmez; klavye ayarı kapalıysa hiçbir şey değişmez."
     ],
     "en-US": [
-      "FIX — Automatic Operator Login: When operator was enabled in server settings, the OPER command was not being sent on some servers. Now, operator login is guaranteed on every server a few seconds after the connection is established.",
-      "NEW — GevezeStory Channel Notifications: Story shares now also appear on the GevezeStory badge when announced in the channel.",
-      "NEW — Operator Thanks + AMSG Exemption: Operator thanks messages are no longer sent to channels in the AMSG Exemption list in Settings → Filters; it continues to work as usual in other channels.",
-      "FIX — Background Notification Preference: When 'Only When My Nickname is Mentioned' is selected, notifications will now only appear for private messages where your nickname is mentioned, even if the application is closed by swiping from recent applications. The issue of notifications appearing for every message has been fixed.",
-      "FIX — Background Message Loss: Even if the application is closed for hours in Always Active mode, messages written in channels in the background are now fully restored. The message history buffer has been greatly expanded.",
-      "IMPROVEMENT — Battery Optimization Reminder: If the app is being restricted by battery saving while Always Active is enabled (leading to notifications stopping after ~10 minutes), you will be guided to the correct setting with a gentle reminder upon startup."
+      "FIX — Oper Login Redesigned: Connection drops and duplicate ghost/release sends during oper login have been fixed at the root. Login now follows the same order on every server: ghost + release first, then oper, nick switch if needed, and the nick password. Works in a single pass on all servers, with or without quarantine.",
+      "FIX — Message Selection: When long-pressing messages and dragging the selection handle DOWNWARD, the screen auto-scrolled and the upper part of the selection was lost. Selection now works smoothly in both directions.",
+      "FIX — Copy All: The selection menu button was renamed to 'Copy All' and now copies the ENTIRE message history of the window, including messages scrolled above (previously only on-screen messages were copied).",
+      "NEW — Delete Logs by Selection: In saved log files, long-press a file to start selection mode, select multiple log files and delete them in one go. Single delete and delete-all still work as before.",
+      "IMPROVEMENT — Denser User List: Row spacing in the channel user list has been reduced; many more users now fit on the same screen. Browsing the list in crowded channels is easier.",
+      "FIX — Keyboard Auto-Capitalization: The keyboard settings 'Capitalize first letter' and 'Auto-capitalize after period' now work in message, comment and note fields (they were not working especially on Samsung keyboards). Nick and password fields are unaffected; nothing changes if the keyboard setting is off."
     ]
   }
 }
