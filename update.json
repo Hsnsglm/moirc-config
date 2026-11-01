@@ -1,19 +1,25 @@
 {
-  "min_build_code": 76,
-  "latest_version": "2.2.14",
+  "min_build_code": 77,
+  "latest_version": "2.2.15",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "📌 ** Oper Nick ile Bağlanma Düzeltildi:** GHOST sonrası yeniden bağlanmalarda artık rastgele işaretler yerine doğrudan ayarlardaki **Oper Giriş Nick** adınız kullanılıyor.",
-      "🧹 ** Temiz Status Penceresi:** 'Giriş yapılıyor', 'IDENTIFY gönderildi' gibi arka plan yazıları status ekranından kaldırıldı; ortalık sadeleşti, sadece gerçek sunucu mesajları kaldı.",
-      "🔔 ** Güncelleme Bildirimi Çalışıyor:** Küçük dosya hatalarından dolayı bazen kaybolan 'Güncelleme mevcut' uyarıları artık her açılışta ve yarım saatte bir sorunsuz gösteriliyor.",
-      "⚡ ** Nick Menüsü ve F Tuşları Kararlı:** Kanallarda nick'e dokununca menünün açılmama sorunu çözüldü. Ayrıca silinen F tuşu kısayolları artık uygulamayı yeniden başlatmaya gerek kalmadan anında güncelleniyor."
+      "📡 **Kopuk Bağlantı Anında Tespit Ediliyor:** Uygulama uzun süre arka planda kaldığında bağlantı sessizce kopabiliyor, kanallar açık görünse de mesajlar gitmiyordu. Artık ölü bağlantı otomatik tespit edilir ve yeniden bağlanılır.",
+      "📱 **Ön Plana Dönüşte Hızlı Kontrol:** Uygulamayı tekrar açtığınızda bağlantı anında denetlenir; kopmuşsa saniyeler içinde bildirim gösterilir ve otomatik yeniden bağlanma başlar.",
+      "🔋 **Pil Dostu:** Bu yeni denetim, arka planda ek pil tüketimi oluşturmaz.",
+      "🚫 **Özeli Kapalı Uyarısı Artık Her Sunucuda:** Özeli kapalı birine mesaj gönderdiğinizde uyarı, sunucu fark etmeksizin doğrudan o kişinin mesaj penceresinde gösterilir.",
+      "⚡ **Kanal Geçişleri ve Kararlılık İyileştirildi:** Kanala geçişte her zaman en son mesaj anında gösterilir; radyo kapatma, resim seçme ve log listeleme sırasında yaşanan takılma ve donmalar (ANR) tamamen giderildi.",
+      "😀 **Görselli Emojiler Seçim ve Kopyalamaya Dahil:** Mesajlardaki görselli emojiler artık metinle birlikte sorunsuz seçiliyor ve eksiksiz kopyalanıp yapıştırılabiliyor.",
+      "🎨 **Yenilenen Genel Ayarlar ve Yazı Alanı Satır Sayısı:** Ayarlar > Genel sekmesi ikonlu ve açılır/kapanır 6 kategoriyle düzenli hale getirildi; mesaj yazma alanının satır sayısını (1-10) belirleme ayarı eklendi."
     ],
     "en-US": [
-      "📌 ** Oper Nick Reconnect Fixed:** Reconnecting after GHOST now properly uses the configured **Oper Login Nick** instead of random characters.",
-      "🧹 ** Clean Status Window:** Background info logs (like 'Login in progress', 'IDENTIFY sent') were removed from the status screen, leaving only real server messages.",
-      "🔔 ** Update Notifications Fixed:** Minor formatting glitches that occasionally silenced the 'Update available' alert have been resolved; checks now run reliably.",
-      "⚡ ** Nick Menu & F-Keys Stability:** Fixed the bug where tapping a nick sometimes failed to open the quick-action menu. Deleted F-key shortcuts now sync instantly without a restart."
+      "📡 **Dead Connections Detected Instantly:** After long background periods the connection could silently die while channels still looked open and messages never went through. Dead connections are now detected automatically and reconnected.",
+      "📱 **Quick Check on Return:** When you reopen the app, the connection is verified immediately; if it dropped, you get a notice within seconds and auto-reconnect kicks in.",
+      "🔋 **Battery Friendly:** This new check adds no extra battery drain in the background.",
+      "🚫 **Blocked-PM Warning on Every Server:** When you message someone whose private messages are closed, the warning now appears right in that person's chat window on any server.",
+      "⚡ **Lightning-Fast Channel Switching & Stability:** Channels always open right at the latest message; freezes and ANRs during radio playback, image picking, and log listing are eliminated.",
+      "😀 **Image Emojis Included in Selection & Copy:** Image emojis inside messages can now be smoothly selected and copied/pasted along with text.",
+      "🎨 **Redesigned General Settings & Input Line Count:** Settings > General is now organized into 6 collapsible categories with status badges, and includes a setting for message input box line count (1-10)."
     ]
   }
 }
