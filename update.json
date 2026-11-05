@@ -1,25 +1,21 @@
 {
-  "min_build_code": 77,
-  "latest_version": "2.2.15",
+  "min_build_code": 78,
+  "latest_version": "2.2.16",
   "store_url": "https://play.google.com/store/apps/details?id=com.moirc.app",
   "release_notes": {
     "tr-TR": [
-      "📡 **Kopuk Bağlantı Anında Tespit Ediliyor:** Uygulama uzun süre arka planda kaldığında bağlantı sessizce kopabiliyor, kanallar açık görünse de mesajlar gitmiyordu. Artık ölü bağlantı otomatik tespit edilir ve yeniden bağlanılır.",
-      "📱 **Ön Plana Dönüşte Hızlı Kontrol:** Uygulamayı tekrar açtığınızda bağlantı anında denetlenir; kopmuşsa saniyeler içinde bildirim gösterilir ve otomatik yeniden bağlanma başlar.",
-      "🔋 **Pil Dostu:** Bu yeni denetim, arka planda ek pil tüketimi oluşturmaz.",
-      "🚫 **Özeli Kapalı Uyarısı Artık Her Sunucuda:** Özeli kapalı birine mesaj gönderdiğinizde uyarı, sunucu fark etmeksizin doğrudan o kişinin mesaj penceresinde gösterilir.",
-      "⚡ **Kanal Geçişleri ve Kararlılık İyileştirildi:** Kanala geçişte her zaman en son mesaj anında gösterilir; radyo kapatma, resim seçme ve log listeleme sırasında yaşanan takılma ve donmalar (ANR) tamamen giderildi.",
-      "😀 **Görselli Emojiler Seçim ve Kopyalamaya Dahil:** Mesajlardaki görselli emojiler artık metinle birlikte sorunsuz seçiliyor ve eksiksiz kopyalanıp yapıştırılabiliyor.",
-      "🎨 **Yenilenen Genel Ayarlar ve Yazı Alanı Satır Sayısı:** Ayarlar > Genel sekmesi ikonlu ve açılır/kapanır 6 kategoriyle düzenli hale getirildi; mesaj yazma alanının satır sayısını (1-10) belirleme ayarı eklendi."
+      "🔁 **/hop Komutu Kanal Odaklaması ve Admin Kanal Merkezi Desteği:** /hop komutu uygulandığında artık status penceresi yerine ilgili kanala odaklanılır; sunucu Admin/IRCop yetkisine sahip kullanıcılar Kanal Merkezi'ndeki tüm işlevleri her kanalda kullanabilir.",
+      "🔄 **Uygulamalar Arası Geçişte Kesintisiz Sohbet:** WhatsApp veya Facebook gibi uygulamalara geçip geri döndüğünüzde oturumların sıfırlanması ve giriş ekranına düşme sorunu kalıcı olarak giderildi.",
+      "🧩 **Gelişmiş mIRC Script, Dialog ve Menü Uyumu:** Özel mesaj kabul/reddet pencereleri dahil masaüstü mIRC için yazılmış dialog, grup ve menü scriptleri artık uygulamada birebir çalışır.",
+      "✨ **Şekilli ve Renkli Özel Nickler Daha Belirgin:** Geveze.org sunucusundaki özel tasarımlı ve renkli rumuzlar artık kanal mesajlarında daha dolgun, net ve okunaklı görünür.",
+      "🛡️ **Yeniden Bağlantıda Kesintisiz Nick Kurtarma ve Oper Girişi:** Bağlantı kopup yeniden bağlandığında yedek rumuzda takılı kalma sorunu giderildi; asıl rumuzunuz otomatik geri alınır."
     ],
     "en-US": [
-      "📡 **Dead Connections Detected Instantly:** After long background periods the connection could silently die while channels still looked open and messages never went through. Dead connections are now detected automatically and reconnected.",
-      "📱 **Quick Check on Return:** When you reopen the app, the connection is verified immediately; if it dropped, you get a notice within seconds and auto-reconnect kicks in.",
-      "🔋 **Battery Friendly:** This new check adds no extra battery drain in the background.",
-      "🚫 **Blocked-PM Warning on Every Server:** When you message someone whose private messages are closed, the warning now appears right in that person's chat window on any server.",
-      "⚡ **Lightning-Fast Channel Switching & Stability:** Channels always open right at the latest message; freezes and ANRs during radio playback, image picking, and log listing are eliminated.",
-      "😀 **Image Emojis Included in Selection & Copy:** Image emojis inside messages can now be smoothly selected and copied/pasted along with text.",
-      "🎨 **Redesigned General Settings & Input Line Count:** Settings > General is now organized into 6 collapsible categories with status badges, and includes a setting for message input box line count (1-10)."
+      "🔁 **/hop Channel Focus & Admin Channel Central Support:** Running /hop now keeps focus on the hopped channel instead of dropping to Status, and server Admin/IRCop users can manage all Channel Central settings across every channel.",
+      "🔄 **Seamless App Switching:** Fixed an issue where switching to apps like WhatsApp or Facebook and returning could reset active sessions back to the login screen.",
+      "🧩 **Enhanced mIRC Script, Dialog & Menu Compatibility:** Desktop mIRC scripts using custom dialogs, groups, and menus (including PM accept/decline prompts) now work seamlessly.",
+      "✨ **Clearer & Larger Styled Nicks in Channels:** Custom-styled and colored nicknames on Geveze.org now appear bolder, sharper, and slightly larger inside channel messages.",
+      "🛡️ **Seamless Nick Recovery & Keep-Nick Oper Login:** Fixed getting stuck on fallback nicks during reconnects; your primary nick is automatically recovered and identified."
     ]
   }
 }
